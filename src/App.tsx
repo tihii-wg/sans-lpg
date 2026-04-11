@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <BrowserRouter
+    <HashRouter
       future={{
         v7_startTransition: true,
         v7_relativeSplatPath:true
@@ -16,7 +16,7 @@ function App() {
           <Route index element={<Home />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
