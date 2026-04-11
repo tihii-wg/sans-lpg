@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "home-title": "SANS - Instalare profesională de echipamente GPL",
+    "home-description": "Instalare și reparare profesională a echipamentelor pentru butelii de gaz în Chișinău"
+  },
+  "header": {
+    "title": "Instalare GPL la cheie în Chișinău",
+    "description-economy": "Economisiți până la 40% la combustibil.",
+    "description-sertificate": "Echipamente certificate.",
+    "description-warranty": "Garanție 2 ani sau 50.000 km.",
+    "checkIcon1": "8 ani de experienta",
+    "checkIcon2": "Peste 1200 de instalații",
+    "checkIcon3": "Asigurarea calității"
+  },
+  "main": {
+    "section-advantages": {
+      "title": "Avantajele noastre",
+      "card-economy-title": "Economie",
+      "card-economy-description": "Gasul este mai ieftină decât benzina până la",
+      "card-equipment-title": "Echipament de încredere",
+      "card-equipment-description": "Expert / Nano / Idea / Pico",
+      "card-legally-title": "Legal",
+      "card-legally-description": "Ajutor Chișinău documente"
+    },
+    "section-work": {
+      "title": "Lucrările noastre"
+    },
+    "section-installation": {
+      "title": "Cum funcționează instalarea?",
+      "diagnostics": "Diagnosticare",
+      "components": "Alegerea componentelor",
+      "installation": "Instalare",
+      "setting": "Setări",
+      "documents": "Documente"
+    },
+    "section-additional-work": {
+      "title": "Muncă suplimentară",
+      "diagnostics": "Diagnosticarea computerizată a unei mașini",
+      "hybrid-car": "Diagnosticarea și repararea vehiculelor hibride",
+      "lpg": "Diagnosticarea și reglarea echipamentelor de gaz",
+      "chassis-repair": "Diagnosticare și reparare șasiu",
+      "Wheel-alignment": "Alinierea roților",
+      "engine": "Reparatie motorului",
+      "headlight-adjusment": "Reglarea farurilor",
+      "air-conditioner": "Diagnosticarea și reumplerea aparatelor de aer condiționat auto"
+    },
+    "section-reviews": {
+      "last-review": "Ultimele recenzii",
+      "write-review": "Scrie o recenzie"
+    }
+  }
+}

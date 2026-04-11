@@ -1,0 +1,56 @@
+/* Основной зелёный: #16A34A
+Тёмный зелёный: #14532D
+Светлый фон: #F0FDF4
+Белый: #FFFFFF */
+/* Серый текст: #4B5563 */
+
+@import "tailwindcss";
+
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* @font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Roboco-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Roboco-Regular.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Roboco-Regular.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Roboco-Regular.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+} */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* .no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+} */
+body {
+  font-family: i;
+}

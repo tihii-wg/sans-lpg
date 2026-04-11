@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "home-title": "SANS - Professional installation of LPG equipment",
+    "home-description": "Professional installation and repair of gas cylinder equipment in Chisinau"
+  },
+  "header": {
+    "title": "Turnkey LPG installation in Chisinau",
+    "description-economy": "Save up to 40% on fuel.",
+    "description-sertificate": "Certified equipment.",
+    "description-warranty": "Warranty 2 years or 50,000 km.",
+    "checkIcon1": "8 years experience",
+    "checkIcon2": "1200+ installations",
+    "checkIcon3": "Quality assurance"
+  },
+  "main": {
+    "section-advantages": {
+      "title": "Our advantages",
+      "card-economy-title": "Saving",
+      "card-economy-description": "Gas is cheaper than gasoline up to",
+      "card-equipment-title": "Reliable equipment",
+      "card-equipment-description": "Expert / Nano / Idea / Pico",
+      "card-legally-title": "Legally",
+      "card-legally-description": "Help with documents"
+    },
+    "section-work": {
+      "title": "Our works"
+    },
+    "section-installation": {
+      "title": "How does the installation work?",
+      "diagnostics": "Diagnostics",
+      "components": "Selection of components",
+      "installation": "Installation",
+      "setting": "Installation",
+      "documents": "Documents"
+    },
+    "section-additional-work": {
+      "title": "Additional work",
+      "diagnostics": "Computer diagnostics of a car",
+      "hybrid-car": "Diagnostics and repair of hybrid vehicles",
+      "lpg": "Diagnostics and adjustment of gas equipment",
+      "chassis-repair": "Diagnostics and repair of chassis",
+      "Wheel-alignment": "Wheel alignment",
+      "engine": "Engine overhaul",
+      "headlight-adjusment": "Headlight adjustment",
+      "air-conditioner": "Diagnostics and refilling of car air conditioners"
+    },
+    "section-reviews": {
+      "last-review": "Latest reviews",
+      "write-review": "Write a review"
+    }
+  }
+}

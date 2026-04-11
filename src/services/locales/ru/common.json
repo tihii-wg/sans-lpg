@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "home-title": "SANS - Профессиональная установка ГБО",
+    "home-description": "Профессиональная установка и ремонт газобаллонного оборудования в Кишинёве"
+  },
+  "header": {
+    "title": "Установка ГБО под ключ в Кишиневе",
+    "description-economy": "Экономьте до 40% на топливе.",
+    "description-sertificate": "Сертифицированное оборудование.",
+    "description-warranty": "Гарантия 2 года или 50000км пробега.",
+    "checkIcon1": "8 лет опыта",
+    "checkIcon2": "1200+ установок",
+    "checkIcon3": "Гарантия качества"
+  },
+  "main": {
+    "section-advantages": {
+      "title": "Наши преимущества",
+      "card-economy-title": "Экономия",
+      "card-economy-description": "Газ дешевле бензина до",
+      "card-equipment-title": "Надежное оборудование",
+      "card-equipment-description": "Expert / Nano / Idea / Pico",
+      "card-legally-title": "Легально",
+      "card-legally-description": "Помощь c документами"
+    },
+    "section-work": {
+      "title": "Наши работы"
+    },
+    "section-installation": {
+      "title": "Как проходит установка",
+      "diagnostics": "Диагностика",
+      "components": "Подбор компонентов",
+      "installation": "Установка",
+      "setting": "Настройка",
+      "documents": "Документы"
+    },
+    "section-additional-work": {
+      "title": "Дополнительные работы",
+      "diagnostics": "Компьютерная диагностика автомобиля",
+      "hybrid-car": "Диагностика и ремонт гибридных автомобилей",
+      "lpg": "Диагностик и настройка газового оборудования",
+      "chassis-repair": "Диагностика и ремонт ходовой",
+      "Wheel-alignment": "Развал/Схождение",
+      "engine": "Капитальный ремонт двигателя",
+      "headlight-adjusment": "Регулировка фар",
+      "air-conditioner": "Диагностика и заправка автокондиционера"
+    },
+    "section-reviews": {
+      "last-review": "Последние отзывы",
+      "write-review": "Написать отзыв"
+    }
+  }
+}
