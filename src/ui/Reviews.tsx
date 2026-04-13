@@ -19,15 +19,12 @@ export default function Reviews() {
   const [reviews, setRewiews] = useState<Review[]>([]);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/api/reviews`)
-      .then((res) => {
-        if (!res.ok) throw new Error("API error");
-        return res.json();
-      })
+    fetch("http://localhost:3001/api/reviews")
+      .then((res) => res.json())
       .then((data) => setRewiews(data))
-      .catch((err) => console.log(err));
   }, []);
 
+  console.log(reviews);
   const rating =
     reviews?.reduce((acc: number, rev) => acc + rev.rating, 0) /
       reviews.length || 1;
