@@ -39,10 +39,10 @@ export default function Header() {
               {t("header.description-warranty")}
             </p>
           </div>
-          <div className="flex gap-3 items-center mb-5 text-green-800">
+          <div className="flex gap-1 items-center mb-5 text-green-800">
             <a
               href="tel:+37378111233"
-              className=" cursor-pointer mt-1 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl max-[640px]:text-x"
+              className=" cursor-pointer mt-1 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-xl max-[640px]:text-xl"
               onClick={() => {
                 navigator.clipboard.writeText("+37378111233");
               }}
