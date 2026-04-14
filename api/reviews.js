@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     return res.status(200).json(
       reviews.map((review) => ({
         ...review,
-        profile_photo_url: `${review.profile_photo_url}&sz=120`,
+        profile_photo_url: formatProfilePhotoUrl(review.profile_photo_url),
       }))
     );
   } catch (error) {
@@ -31,5 +31,18 @@ export default async function handler(req, res) {
       error: "Server error",
       details: error instanceof Error ? error.message : "Unknown error",
     });
+  }
+}
+
+function formatProfilePhotoUrl(rawUrl) {
+  if (!rawUrl) return "";
+
+  try {
+    const url = new URL(rawUrl);
+    url.searchParams.set("sz", "120");
+    return url.toString();
+  } catch {
+    const separator = rawUrl.includes("?") ? "&" : "?";
+    return `${rawUrl}${separator}sz=120`;
   }
 }

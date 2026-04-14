@@ -1,20 +1,38 @@
 import type { Review } from "./Reviews";
 import StarRating from "./StarRating";
 import VerifiedBadge from "./VerifiedBadge";
+import { useState } from "react";
 
 type Props = {
   review: Review;
 };
 
 export default function ReviewCard({ review }: Props) {
+  const [imageFailed, setImageFailed] = useState(false);
+  const initials = review.author_name
+    .split(" ")
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0]?.toUpperCase())
+    .join("");
+
   return (
     <article className="rounded-2xl border border-zinc-200 bg-white/80 backdrop-blur p-5 shadow-sm">
       <div className="flex items-start gap-3 mb-4">
-        <img
-          src={review.profile_photo_url}
-          alt={review.author_name}
-          className="w-11 h-11 rounded-full object-cover"
-        />
+        {imageFailed || !review.profile_photo_url ? (
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-zinc-200 text-sm font-semibold text-zinc-600">
+            {initials || "G"}
+          </div>
+        ) : (
+          <img
+            src={review.profile_photo_url}
+            alt={review.author_name}
+            className="w-11 h-11 rounded-full object-cover"
+            loading="lazy"
+            referrerPolicy="no-referrer"
+            onError={() => setImageFailed(true)}
+          />
+        )}
 
         <div className="min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
