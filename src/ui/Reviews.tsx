@@ -16,12 +16,15 @@ export type Review = {
 
 export default function Reviews() {
   const [reviews, setRewiews] = useState<Review[]>([]);
+  const reviewsUrl = import.meta.env.DEV
+    ? "http://localhost:3001/api/reviews"
+    : "/api/reviews";
 
   useEffect(() => {
-    fetch("http://localhost:3001/api/reviews")
+    fetch(reviewsUrl)
       .then((res) => res.json())
       .then((data) => setRewiews(data));
-  }, []);
+  }, [reviewsUrl]);
 
   const rating =
     reviews?.reduce((acc: number, rev) => acc + rev.rating, 0) /
