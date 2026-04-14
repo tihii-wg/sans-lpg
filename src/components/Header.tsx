@@ -55,7 +55,7 @@ export default function Header() {
             </div>
           </div>
           <img
-            className=" absolute 2xl:right-60  lg:right-30  md:right-5 sm:right-1 max-[640px]:right-0 mask-[linear-gradient(to_left,black_40%,transparent)] [-webkit-mask-image:linear-gradient(to_left,black30%,transparent)   2xl:w-175 xl:w-140 lg:w-120 md:w-120 sm:w-100  2xl:h-100 xl:h-80 lg:h-70 md:h-77 sm:h-69 max-[640px]:h-50 2xl:bottom-0    lg:bottom     md:bottom-0  sm:bottom-0  "
+            className=" absolute 2xl:right-60  lg:right-30  md:right-5 sm:right-1 max-[640px]:right-0 mask-[linear-gradient(to_left,black_0%,transparent)] [-webkit-mask-image:linear-gradient(to_left,black30%,transparent)   2xl:w-175 xl:w-140 lg:w-120 md:w-120 sm:w-100  2xl:h-100 xl:h-80 lg:h-70 md:h-77 sm:h-69 max-[640px]:h-50 2xl:bottom-0    lg:bottom     md:bottom-0  sm:bottom-0  "
             src="/img/service-background.png"
             alt="service image"
           />
